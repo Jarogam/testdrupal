@@ -1,0 +1,9 @@
+{# views-view-fields--products.html.twig #}
+{% for key, item in rows %}
+  <div class="product-item">
+    <h3>{{ fields.title.content }}</h3>
+    <div class="product-image">{{ fields.field_image.content }}</div>
+    <div class="product-price">{{ fields.field_price.content }}</div>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+{% endfor %}
