@@ -1,0 +1,11 @@
+/* General */
+/* Block styles */
+/* View styles */
+
+.main-wrapper {
+    background: #fff9;
+}
+/* Page styles */
+.content-front {
+    display: flex;
+}
